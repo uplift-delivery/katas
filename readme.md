@@ -22,3 +22,23 @@ choose a "code kata", spend 30 minutes to an hour working on the kata, and then 
 on how they might do it differently. The most important part is the reflection. Performing
 a kata without self-reflection will yield minimal actual improvement.
 
+# Katas
+
+- [String Calculator](https://osherove.com/tdd-kata-1)
+- [Bowling Game](https://kata-log.rocks/bowling-game-kata)
+- [Gilded Rose](https://github.com/emilybache/GildedRose-Refactoring-Kata)
+
+## Collection of Katas
+
+- [CodeKata](http://codekata.com/)
+- [Awesome Katas](https://github.com/gamontal/awesome-katas)
+- [Coding Dojo](https://codingdojo.org/kata/)
+
+# Ideas for Katas
+
+- Can you do the kata without a mouse?
+- Do the kata with a friend.
+- Try the same kata in a different language.
+- Try the kata using TDD.
+
+
