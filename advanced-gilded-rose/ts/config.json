@@ -1,0 +1,9 @@
+{
+  "db": {
+    "user": "prod_user",
+    "password": "F!ct7ozDEcLGiLv!Dz7*",
+    "database": "gilded-rose",
+    "host": "gilded-rose-prod.123456789012.us-east-1.rds.amazon.com",
+    "port": 5432
+  }
+}
