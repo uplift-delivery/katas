@@ -1,38 +1,38 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Npgsql;
 
 namespace Advanced.Gilded.Rose
 {
     [ApiController]
-    [Route("items")]
+    [Route("")]
     public class ItemsController : Controller
     {
-        private readonly NpgsqlConnectionStringBuilder _builder;
+        private readonly IConfiguration _config;
 
-        public ItemsController()
+        public ItemsController(IConfiguration config)
         {
-            _builder = new NpgsqlConnectionStringBuilder();
+            _config = config;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            await using var connection = new NpgsqlConnection(_builder.ConnectionString);
+            await using var connection = new NpgsqlConnection(_config.GetConnectionString("Database"));
             await connection.OpenAsync();
             await using var command = connection.CreateCommand();
             command.CommandText = "select * from items";
             await using var reader = await command.ExecuteReaderAsync();
             var items = new List<Item>();
-            while (await reader.NextResultAsync())
+            while (await reader.ReadAsync())
             {
                 items.Add(new Item(
                     reader.GetInt32(0),
                     reader.GetString(1),
                     reader.GetInt32(2),
-                    reader.GetInt32(3),
-                    reader.GetInt32(4))
+                    reader.GetInt32(3))
                 );
             }
 
@@ -42,21 +42,21 @@ namespace Advanced.Gilded.Rose
         [HttpPost]
         public async Task<IActionResult> Update()
         {
-            await using var connection = new NpgsqlConnection(_builder.ConnectionString);
+            await using var connection = new NpgsqlConnection(_config.GetConnectionString("Database"));
             await connection.OpenAsync();
 
             await using var getAllCommand = connection.CreateCommand();
             getAllCommand.CommandText = "select * from items";
             await using var reader = await getAllCommand.ExecuteReaderAsync();
             var items = new List<Item>();
-            while (await reader.NextResultAsync())
+            while (await reader.ReadAsync())
             {
                 items.Add(new Item(
                     reader.GetInt32(0),
                     reader.GetString(1),
                     reader.GetInt32(2),
-                    reader.GetInt32(3),
-                    reader.GetInt32(4))
+                    reader.GetInt32(3)
+                    )
                 );
             }
 
