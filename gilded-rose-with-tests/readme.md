@@ -26,23 +26,18 @@ We have recently signed a supplier of conjured items. This requires an update to
 
 	- "Conjured" items degrade in Quality twice as fast as normal items
 
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
+still works correctly.
+
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a
 legendary item and as such its Quality is 80 and it never alters.
 
-## The Twists
-
-- This version of the gilded rose includes the usage of a database hosted in AWS that you do not have access. It is also not accessible from the internet. You cannot connect to the database.
+# Twists
 
 - In this version you can change any of the code you would like.
 	- We have vanquished the goblin developer that didn't believe in collective code ownership
 
-- This functionality was exposed to the web using a REST API
-	- Endpoints
-		- GET '/'
-			- Get all items from the database
-		- POST '/' 
-			- Update item's quality and sell in values.
-
 ### Your Goal
 
-Add tests to this solution that allow you to verify the gilded rose is still working.
+- Refactor the code to make adding a conjured item simpler
+- Add conjured item 
