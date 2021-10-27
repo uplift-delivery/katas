@@ -1,4 +1,8 @@
-# Why should we care about Code Katas?
+# Uplift Katas
+
+Welcome to the landing page for all things kata related
+
+## Why should we care about Code Katas?
 
 Think of your favorite musician, artist, athlete, etc. How do you think that person become great at what they do?
 All people that have become great or expert at anything have dedicated huge amounts of time to practicing their craft.
@@ -36,9 +40,9 @@ a kata without self-reflection will yield minimal actual improvement.
 
 # Ideas for Katas
 
-- Can you do the kata without a mouse?
-- Do the kata with a friend.
-- Try the same kata in a different language.
-- Try the kata using TDD.
+- [ ] Can you do the kata without a mouse?
+- [ ] Do the kata with a friend.
+- [ ] Try the same kata in a different language.
+- [ ] Try the kata using TDD.
 
 
