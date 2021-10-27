@@ -6,7 +6,7 @@
 1. Do one task at a time. The trick is to learn to work incrementally.
 1. Make sure you only test for correct inputs. There is no need to test for invalid inputs for this kata.
   
-### :test_tube: Pick your poison
+### 💀 Pick your poison
 - [C#](https://github.com/uplift-delivery/katas/tree/main/string-calculator/c-sharp)  
 - [javascript](https://github.com/uplift-delivery/katas/tree/main/string-calculator/js)  
 - [python](https://github.com/uplift-delivery/katas/tree/main/string-calculator/python)  
