@@ -1,7 +1,4 @@
 theme: jekyll-theme-hacker
 markdown: kramdown
-kramdown:
-  parse_block_html: true
 plugins:
   - jemoji
-avatar: "/uplift-favicon.ico"
