@@ -1,4 +1,7 @@
-# Gilded Rose Requirements Specification
+# 🌹 Gilded Rose 
+https://github.com/emilybache/GildedRose-Refactoring-Kata
+
+## Requirements Specification
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
 prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
@@ -36,9 +39,6 @@ legendary item and as such its Quality is 80 and it never alters.
 
 - In this version you can change any of the code you would like.
 	- We have vanquished the goblin developer that didn't believe in collective code ownership
-
-
-  https://kata-log.rocks/bowling-game-kata
 
 ### Your Goal
 
