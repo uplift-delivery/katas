@@ -30,7 +30,7 @@ a kata without self-reflection will yield minimal actual improvement.
 
 📟 [String Calculator](/string-calculator/README.md)  
 🎳 [Bowling Game](/bowling-game/README.md)  
-🌹 [Gilded Rose](/gilded-rose-with-tests/readme.md)  
+🌹 [Gilded Rose](/gilded-rose-with-tests/README.md)  
 
 ## Collection of Katas
 
