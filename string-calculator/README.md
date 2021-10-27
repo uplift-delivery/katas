@@ -14,12 +14,12 @@
    
   
 ### :scroll: Instructions
-[Step 1](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-1.txt)  
-[Step 2](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-2.txt)  
-[Step 3](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-3.txt)  
-[Step 4](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-4.txt)  
-[Step 5](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-5.txt)  
-[Step 6](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-6.txt)  
-[Step 7](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-7.txt)  
-[Step 8](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-8.txt)  
-[Step 9](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-9.txt)  
+- [Step 1](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-1.txt)  
+- [Step 2](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-2.txt)  
+- [Step 3](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-3.txt)  
+- [Step 4](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-4.txt)  
+- [Step 5](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-5.txt)  
+- [Step 6](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-6.txt)  
+- [Step 7](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-7.txt)  
+- [Step 8](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-8.txt)  
+- [Step 9](https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-kata-9.txt)  
