@@ -1,5 +1,5 @@
 #  📟 String Calculator
-[https://osherove.com/tdd-kata-1](osherove.com)
+[oshrove.com](https://osherove.com/tdd-kata-1)
   
 ### :rotating_light: Before you start
 1. Try not to read ahead.
