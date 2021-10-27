@@ -40,9 +40,9 @@ a kata without self-reflection will yield minimal actual improvement.
 
 # Ideas for Katas
 
-- [ ] Can you do the kata without a mouse?
-- [ ] Do the kata with a friend.
-- [ ] Try the same kata in a different language.
-- [ ] Try the kata using TDD.
+- Can you do the kata without a mouse?
+- Do the kata with a friend.
+- Try the same kata in a different language.
+- Try the kata using TDD.
 
 
