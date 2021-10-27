@@ -24,6 +24,8 @@ a kata without self-reflection will yield minimal actual improvement.
 
 # Katas
 
+  ### [String Calculator](/string-calculator/README.md)
+
   <details>
   <summary> :abacus: String Calculator</summary>
   https://osherove.com/tdd-kata-1
