@@ -37,6 +37,9 @@ legendary item and as such its Quality is 80 and it never alters.
 - In this version you can change any of the code you would like.
 	- We have vanquished the goblin developer that didn't believe in collective code ownership
 
+
+  https://kata-log.rocks/bowling-game-kata
+
 ### Your Goal
 
 - Refactor the code to make adding a conjured item simpler
