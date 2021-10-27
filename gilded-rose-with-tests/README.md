@@ -1,5 +1,5 @@
 # 🌹 Gilded Rose 
-https://github.com/emilybache/GildedRose-Refactoring-Kata
+[Gilded Rose on Github](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 
 ## Requirements Specification
 
