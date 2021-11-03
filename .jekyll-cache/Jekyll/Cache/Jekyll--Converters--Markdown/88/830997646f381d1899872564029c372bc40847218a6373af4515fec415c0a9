@@ -1,0 +1,347 @@
+I"$@<p><!-- Navigation --></p>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">Uplift Katas</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Katas</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#ideas">Ideas</a></li>
+        
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://www.upliftdelivery.com">Uplift Homepage</a></li>
+        
+        </ul>
+      </div>
+    </div>
+  </nav>
+<p><!-- End Navigation --></p>
+
+<p><!-- Header --></p>
+<header class="masthead">
+    <div class="container">
+      <div class="intro-text"><div class="intro-lead-in"><p>Welcome to our Katas Page!</p>
+</div><div class="intro-heading text-uppercase"><p>It’s Nice To See You</p>
+</div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Get Started</a></div>
+    </div>
+  </header>
+<p><!-- End Header --></p>
+
+<!-- About -->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">What is a Kata</h2>
+        <h3 class="section-subheading text-muted">and why we should care about them</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted"><p>‘Kata’ comes from the world of martial arts. The goal of a kata in martial arts is to practice a form multiple times making small improvements each time. <br /><br />
+Think of your favorite musician, artist, athlete, etc. How do you think that person become great at what they do? All people that have become great or expert at anything have dedicated huge amounts of time to practicing their craft. Pianists spend countless hours practicing their scales so that their fingers move swiftly without thought during their concerts. Athletes spend countless hours in the gym, weight room, pool, etc. so that when the game/meet starts they are ready to perform at their peak for a few hours. To be great or even good at anything requires some amount of practice. There is no way around this; without practice skill does not improve. <br /><br />
+A code kata is one form of practice. Have you ever wanted to learn TDD, CI, Refactoring, keyboard shortcuts, etc? Code katas can be a great safe way to improve or learn all of these skills. <br /><br /></p>
+<h4 id="what-does-that-have-to-do-with-software-development">What does that have to do with Software Development?</h4>
+<p>Software developers can use ‘code katas’ as a form of practice. The idea is to choose a ‘code kata’, spend 30 minutes to an hour working on the kata, and then reflect on how they might do it differently. The most important part is the reflection. Performing a kata without self-reflection will yield minimal actual improvement.</p>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
+<!-- Portfolio Grid -->
+<section class="bg-light page-section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase"><p>Katas</p>
+</h2>
+        <h3 class="section-subheading text-muted"><p>Lorem ipsum dolor sit amet consectetur.</p>
+</h3>
+      </div>
+    </div>
+    <div class="row">
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/string-calculator.jpeg" alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4>String Calculator</h4>
+          <p class="text-muted">TDD Exercise</p>
+        </div>
+      </div>
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p2">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/bowling-game.jpeg" alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4>Bowling Game</h4>
+          <p class="text-muted">TDD Exercise</p>
+        </div>
+      </div>
+	
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p3">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="assets/img/portfolio/gilded-rose.jpeg" alt="" />
+        </a>
+        <div class="portfolio-caption">
+          <h4>Gilded Rose</h4>
+          <p class="text-muted">Refactoring Exercise</p>
+        </div>
+      </div>
+	
+    </div>
+  </div>
+</section>
+<!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">String Calculator</h2>
+              <p class="item-intro text-muted">The following is a TDD Kata - an exercise in coding, refactoring and test-first</p>
+              <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/string-calculator.jpeg" alt="Notebook Calculator" />
+              <p><p><a href="https://osherove.com/tdd-kata-1">string calculator on oshrove.com</a></p>
+
+<h3 id="-before-you-start">🚨 Before you start</h3>
+<p>Try not to read ahead.<br />
+Do one task at a time. The trick is to learn to work incrementally.<br />
+Make sure you only test for correct inputs. There is no need to test for invalid inputs for this kata.</p>
+
+<h3 id="-pick-your-poison">💀 Pick your poison</h3>
+<p><a href="https://github.com/uplift-delivery/katas/tree/main/string-calculator/c-sharp">C#</a><br />
+<a href="https://github.com/uplift-delivery/katas/tree/main/string-calculator/js">javascript</a><br />
+<a href="https://github.com/uplift-delivery/katas/tree/main/string-calculator/python">python</a><br />
+<a href="https://github.com/uplift-delivery/katas/tree/main/string-calculator/ts">typescript</a></p>
+
+<h3 id="-instructions">📜 Instructions</h3>
+<p><a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-1.txt">Step 1</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-2.txt">Step 2</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-3.txt">Step 3</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-4.txt">Step 4</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-5.txt">Step 5</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-6.txt">Step 6</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-7.txt">Step 7</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-8.txt">Step 8</a><br />
+<a href="https://raw.githubusercontent.com/uplift-delivery/katas/main/string-calculator/string-calculator-requirement-9.txt">Step 9</a></p>
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Kata
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Bowling Game</h2>
+              <p class="item-intro text-muted"></p>
+              <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/bowling-game.jpeg" alt="" />
+              <p><h3 id="bowling-rules">Bowling Rules</h3>
+<p>The game consists of 10 frames. In each frame the player has two rolls to knock down 10 pins. The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.</p>
+
+<p>A spare is when the player knocks down all 10 pins in two rolls. The bonus for that frame is the number of pins knocked down by the next roll.</p>
+
+<p>A strike is when the player knocks down all 10 pins on his first roll. The frame is then completed with a single roll. The bonus for that frame is the value of the next two rolls.</p>
+
+<p>In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame. However no more than three balls can be rolled in tenth frame.</p>
+
+<h3 id="requirements">Requirements</h3>
+<p>Write a class Game that has two methods<br />
+void roll(int) is called each time the player rolls a ball. The argument is the number of pins knocked down.
+int score() returns the total score for that game.</p>
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Kata
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Gilded Rose</h2>
+              <p class="item-intro text-muted"></p>
+              <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/gilded-rose.jpeg" alt="Keep Exploring" />
+              <p><p><a href="https://github.com/emilybache/GildedRose-Refactoring-Kata">Gilded Rose on Github</a></p>
+
+<h3 id="requirements-specification">Requirements Specification</h3>
+
+<p>Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime location in a
+prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods.
+Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We
+have a system in place that updates our inventory for us. It was developed by a no-nonsense type named
+Leeroy, who has moved on to new adventures. Your task is to add the new feature to our system so that
+we can begin selling a new category of items. First an introduction to our system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- All items have a SellIn value which denotes the number of days we have to sell the item
+- All items have a Quality value which denotes how valuable the item is
+- At the end of each day our system lowers both values for every item
+</code></pre></div></div>
+
+<p>Pretty simple, right? Well this is where it gets interesting:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Once the sell by date has passed, Quality degrades twice as fast
+- The Quality of an item is never negative
+- "Aged Brie" actually increases in Quality the older it gets
+- The Quality of an item is never more than 50
+- "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
+- "Backstage passes", like aged brie, increases in Quality as its SellIn value approaches;
+- Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
+- Quality drops to 0 after the concert
+</code></pre></div></div>
+
+<p>We have recently signed a supplier of conjured items. This requires an update to our system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- "Conjured" items degrade in Quality twice as fast as normal items
+</code></pre></div></div>
+
+<p>Feel free to make any changes to the UpdateQuality method and add any new code as long as everything
+still works correctly.</p>
+
+<p>Just for clarification, an item can never have its Quality increase above 50, however “Sulfuras” is a
+legendary item and as such its Quality is 80 and it never alters.</p>
+
+<h3 id="twists">Twists</h3>
+
+<p>In this version you can change any of the code you would like.<br />
+We have vanquished the goblin developer that didn’t believe in collective code ownership</p>
+
+<h3 id="your-goal">Your Goal</h3>
+
+<p>Refactor the code to make adding a conjured item simpler<br />
+Add conjured item</p>
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Close Kata
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Portfolio Modals -->
+
+<!-- Services -->
+<section class="page-section" id="ideas">
+    <div class="container">
+	
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Ideas</h2>
+          
+		  <h3 class="section-subheading text-muted">Make your katas more interesting</h3>
+		  
+        </div>
+      </div>
+	  
+      <div class="row text-center">
+	  
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-level-up-alt fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading"><p>Challenge Yourself</p>
+</h4>
+          <div class="text-muted"><p>Can you do the kata without a mouse?</p>
+</div>
+        </div>
+	  
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-user-friends fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading"><p>Have Some Fun</p>
+</h4>
+          <div class="text-muted"><p>Do the kata with a friend</p>
+</div>
+        </div>
+	  
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading"><p>Learn Something New</p>
+</h4>
+          <div class="text-muted"><p>Try the same kata in a different language</p>
+</div>
+        </div>
+	  
+      </div>
+	  
+    </div>
+  </section>
+<!-- End Services -->
+:ET

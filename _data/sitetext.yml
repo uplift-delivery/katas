@@ -1,0 +1,82 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to our Katas Page!
+    text: It's Nice To See You
+    button: Get Started
+    buttonlink: "#portfolio"
+
+  about:
+    title: "What is a Kata"
+    text: "and why we should care about them"
+    body:
+        "'Kata' comes from the world of martial arts. The goal of a kata in martial arts is to practice a form multiple
+        times making small improvements each time. <br /><br />
+
+        Think of your favorite musician, artist, athlete, etc. How do you think that person become great at what they do?
+        All people that have become great or expert at anything have dedicated huge amounts of time to practicing their craft.
+        Pianists spend countless hours practicing their scales so that their fingers move swiftly without thought during their
+        concerts. Athletes spend countless hours in the gym, weight room, pool, etc. so that when the game/meet starts they are ready
+        to perform at their peak for a few hours. To be great or even good at anything requires some amount of practice.
+        There is no way around this; without practice skill does not improve. <br /><br />
+
+        A code kata is one form of practice. Have you ever wanted to learn TDD, CI, Refactoring, keyboard shortcuts, etc?
+        Code katas can be a great safe way to improve or learn all of these skills. <br /><br />
+
+        #### What does that have to do with Software Development?
+
+        Software developers can use 'code katas' as a form of practice. The idea is to
+        choose a 'code kata', spend 30 minutes to an hour working on the kata, and then reflect
+        on how they might do it differently. The most important part is the reflection. Performing
+        a kata without self-reflection will yield minimal actual improvement."
+    section: about
+
+  portfolio:
+    title: "Katas"
+    section: portfolio
+    closebutton: "Close Kata"
+
+  services:
+    title: "Ideas"
+    text: "Make your katas more interesting"
+    section: ideas
+    list:
+      - title: "Challenge Yourself"
+        desc: "Can you do the kata without a mouse?"
+        icon: fas fa-level-up-alt #find more at https://fontawesome.com/icons
+      - title: "Have Some Fun"
+        desc: "Do the kata with a friend"
+        icon: fas fa-user-friends
+      - title: "Learn Something New"
+        desc: "Try the same kata in a different language"
+        icon: fas fa-graduation-cap
+
+  footer:
+    legal: ""
+    social:
+      - url: https://www.linkedin.com/company/uplift-delivery
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/uplift-delivery/katas
+        icon: "fab fa-github"
+      - url: https://www.instagram.com/uplift.delivery/
+        icon: "fab fa-instagram"
+      - url: https://www.facebook.com/ProfessionalProjectPartners
+        icon: "fab fa-facebook-f"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
