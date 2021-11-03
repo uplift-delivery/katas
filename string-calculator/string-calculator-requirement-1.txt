@@ -1,7 +1,9 @@
-1. Create a simple String calculator with a method signature:
+1. Create a simple String calculator with the below method signature that takes in a string of up to two comma seperated numbers and returns the sum of those numbers.
 	———————————————
 	int Add(string numbers)
 	———————————————
+	
+	Requirements: 
 	
 	When I calculate the sum of ""
 	Then I should receive 0
