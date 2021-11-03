@@ -1,1 +1,4 @@
 Allow the Add method to handle an unknown amount of numbers
+
+When given a string with an unknown number of elements
+Then the sum of those elements is returned
