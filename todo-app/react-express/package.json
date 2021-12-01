@@ -1,0 +1,18 @@
+{
+  "name": "react-express",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "start": "npm run start --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "author": "",
+  "license": "MIT"
+}
