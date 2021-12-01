@@ -1,0 +1,11 @@
+{
+  "ignore": [
+    ".git",
+    "dist",
+    "src/**/*.spec.js"
+  ],
+  "watch": [
+    "src"
+  ],
+  "ext": "js"
+}

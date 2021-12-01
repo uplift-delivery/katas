@@ -10,9 +10,15 @@
     ]
   },
   "scripts": {
-    "start": "npm run start --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present"
+    "ui:start": "cross-env SKIP_PREFLIGHT_CHECK=true npm run start --workspace=ui",
+    "api:start": "npm run start --workspace=api",
+    "start": "concurrently --kill-others \"npm:*:start\"",
+    "test": "cross-env SKIP_PREFLIGHT_CHECK=true CI=true npm run test --workspaces --if-present"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "6.4.0",
+    "cross-env": "7.0.3"
+  }
 }
