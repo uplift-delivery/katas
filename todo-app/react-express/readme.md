@@ -6,8 +6,12 @@ The features of the application are below.
 ## Goals
 
 - Experience writing tests for a front-end and backend-application
-- Experience building a simple React application
+- Experience building a simple React application.
 - Experience building a simple Express Rest api.
+
+## Ideas
+
+- Write tests without using a mocking framework (no jest.mock, sinon, jest.spy, etc.)
 
 # Features
 
