@@ -1,0 +1,14 @@
+# Full path to the System Under Test (or Java Main Class name)
+executable:${TEXTTEST_CHECKOUT}/texttest_fixture.py
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Expanded name to use for application
+full_name:Gilded Rose
+
+default_checkout:gilded-rose
+
+copy_test_path:items.csv
+
+config_module:default
