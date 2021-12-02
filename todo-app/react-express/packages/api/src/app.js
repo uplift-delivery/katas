@@ -1,9 +1,11 @@
 import express from 'express';
 import bodyParser from "body-parser";
+import cors from 'cors';
 import winston from 'winston';
 import expressWinston from 'express-winston';
 
 const app = express();
+app.use(cors());
 app.use(expressWinston.logger({
     transports: [
         new winston.transports.Console()
