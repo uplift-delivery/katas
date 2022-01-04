@@ -1,0 +1,18 @@
+{
+  "name": "gilded-rose-kata",
+  "version": "1.0.0",
+  "description": "Gilded Rose kata in Javascript",
+  "main": "src/gilded-rose.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+
+  }
+}
