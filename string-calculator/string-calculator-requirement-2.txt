@@ -2,3 +2,11 @@ Allow the Add method to handle an unknown amount of numbers
 
 When given a string with an unknown number of elements
 Then the sum of those elements is returned
+
+Requirements:
+
+	When I calculate the sum of "1,2,3"
+	Then I should receive 6
+  
+	When I calculate the sum of "1,2,3,9,3,4,2,4,3,3"
+	Then I should receive 34
