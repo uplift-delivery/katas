@@ -2,5 +2,10 @@
 	1. the following input is ok: “1\n2,3” (will equal 6)
 	2. the following input is NOT ok: “1,\n” (not need to prove it - just clarifying)
 
-When given the string '1\n2,3'
-Then 6 is returned
+Requirements:
+
+	When I calculate the sum of "5\n11"
+	Then I should receive 16
+  
+	When I calculate the sum of "3,17\n12"
+	Then I should receive 32
