@@ -1,1 +1,20 @@
 5. Calling Add with a negative number will throw an exception “negatives not allowed” - and the negative that was passed. If there are multiple negatives, show all of them in the exception message.
+
+
+Requirements:
+
+	When I calculate the sum of "3,-11"
+	Then I should throw an exception "negatives not allowed"
+  
+	When I calculate the sum of "-1"
+	Then I should throw an exception "negatives not allowed"
+  
+	When I calculate the sum of "\\;\n12;-1"
+	Then I should throw an exception "negatives not allowed"
+
+	Hints:
+	——————
+	 - Start with the simplest test case
+	 - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+	 - Remember to refactor after each passing test
+   - This is an open internet exercise
