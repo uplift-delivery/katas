@@ -1,3 +1,18 @@
 4. Support different delimiters
     1. to change a delimiter, the beginning of the string will contain a separate line that looks like this: “//[delimiter]\n[numbers…]” for example “//;\n1;2” should return three where the default delimiter is ‘;’ 
     2. the first line is optional. all existing scenarios should still be supported
+
+Requirements:
+
+	When I calculate the sum of "\\c\n3c11"
+	Then I should receive 14
+  
+	When I calculate the sum of "\\;\n3;17\n12,2"
+	Then I should receive 34
+
+	Hints:
+	——————
+	 - Start with the simplest test case
+	 - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+	 - Remember to refactor after each passing test
+         - This is an open internet exercise
