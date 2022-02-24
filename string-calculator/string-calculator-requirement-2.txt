@@ -10,3 +10,10 @@ Requirements:
   
 	When I calculate the sum of "1,2,3,9,3,4,2,4,3,3"
 	Then I should receive 34
+
+
+	Hints:
+	——————
+	 - Start with the simplest test case of an empty string and move to one and two numbers
+	 - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+	 - Remember to refactor after each passing test
