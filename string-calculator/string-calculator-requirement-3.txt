@@ -9,3 +9,10 @@ Requirements:
   
 	When I calculate the sum of "3,17\n12"
 	Then I should receive 32
+
+	Hints:
+	——————
+	 - Start with the simplest test case
+	 - Remember to solve things as simply as possible so that you force yourself to write tests you did not think about
+	 - Remember to refactor after each passing test
+         - This is an open internet exercise
