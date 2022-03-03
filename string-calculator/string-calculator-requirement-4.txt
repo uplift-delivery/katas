@@ -4,10 +4,10 @@
 
 Requirements:
 
-	When I calculate the sum of "\\c\n3c11"
+	When I calculate the sum of "//c\n3c11"
 	Then I should receive 14
   
-	When I calculate the sum of "\\;\n3;17\n12,2"
+	When I calculate the sum of "//;\n3;17\n12,2"
 	Then I should receive 34
 
 	Hints:
