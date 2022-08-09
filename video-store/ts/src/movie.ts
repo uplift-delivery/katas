@@ -16,10 +16,6 @@ export class Movie {
         return this.priceCode;
     }
 
-    public setPriceCode(arg: number) {
-        this.priceCode = arg;
-    }
-
     public getTitle(): string {
         return this.title;
     }
