@@ -2,7 +2,8 @@
 
 ## The Problem
 
-We’ve been contracted by a stationery company to simulate writing on a digital whiteboard application with a marker. This marker must mimic the way a real marker behaves: it dries out with use, has a limited surface area to write on, and can be replaced when used up. The goal is to accurately reflect these behaviors in code so the whiteboard tool can provide a realistic user experience.
+We’ve been contracted by a stationery company to simulate writing on a digital whiteboard application with a marker. This marker must mimic the way a real marker behaves: it dries out with use, has a limited surface area to write on, and can be replaced when used up. The point of this kata is to provide a larger-than-trivial exercise that can be used to practice TDD. A significant portion of the effort will be in determining which tests should be written and, more importantly, written next.
+
 
 ---
 
