@@ -23,7 +23,7 @@ Each claim has:
 
 ### Evaluating a Claim
 
-**As a** claims system, **I want** to evaluate incoming claims, **so that** we can approve, deny, or escalate them.
+**As a** claims adjuster, **I want** to evaluate incoming claims, **so that** we can approve, deny, or escalate them.
 
 Apply the following rules:
 - Check if the policy is active on the incident date
@@ -36,7 +36,7 @@ Apply the following rules:
 
 ### Calculating Payout
 
-**As a** claims system, **I want** to determine how much to reimburse, **so that** customers are paid fairly.
+**As a** claims adjuster, **I want** to determine how much to reimburse, **so that** customers are paid fairly.
 
 - A valid claim results in a payout equal to `amountClaimed - deductible`
 - The payout cannot exceed the policy’s coverage limit
