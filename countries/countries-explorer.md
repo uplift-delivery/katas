@@ -1,4 +1,4 @@
-# Frontend UI Kata — Countries Explorer
+# Countries Explorer
 
 ## The Problem
 
@@ -16,7 +16,6 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 
 - Fetch and display a paginated or infinite-scrolling list of countries.
 - Each country should show at least its name, flag, population, region, and capital.
-- UI should gracefully handle loading and error states.
 
 ---
 
@@ -25,28 +24,7 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 **As a** user, **I want** to click on a country, **so that** I can see more information about it.
 
 - Display detailed info such as native name, subregion, timezones, currencies, languages, and borders.
-- Consider linking to bordering countries.
 - Implement a back button to return to the country list.
-
----
-
-### Filtering & Searching
-
-**As a** user, **I want** to filter and search countries, **so that** I can find what I’m interested in.
-
-- Support text search by name.
-- Add region filtering (e.g., Asia, Europe).
-- Allow filtering by population size (e.g., min/max).
-
----
-
-### Responsive Design
-
-**As a** mobile or desktop user, **I want** the UI to adapt to my device, **so that** it’s always easy to use.
-
-- Support both desktop and mobile views.
-- Use flexible layout techniques (grid, flexbox).
-- Avoid fixed widths or pixel-specific sizing.
 
 ---
 
@@ -58,5 +36,15 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 - If I leave the app and come back it should be persisted
 - Provide a dedicated view or section that lists all favorite countries.
 - Indicate which countries are favorited in both the list and details views.
+
+---
+
+### Responsive Design
+
+**As a** mobile or desktop user, **I want** the UI to adapt to my device, **so that** it’s always easy to use.
+
+- Support both desktop and mobile views.
+- Use flexible layout techniques (grid, flexbox).
+- Avoid fixed widths or pixel-specific sizing.
 
 ---
