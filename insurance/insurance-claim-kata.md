@@ -23,6 +23,18 @@ Each claim has:
 
 ### Evaluating a Claim
 
+**Each claim evaluation should return an object with the following fields:**
+
+- `approved: boolean` – Was the claim accepted?
+    
+- `escalated: boolean` – Was it flagged for manual review?
+    
+- `payout: number` – Final payout amount (after deductible and limits)
+    
+- `reasonCode: string` – A short code explaining the decision (e.g., `APPROVED`, `POLICY_INACTIVE`, `ESCALATED_FOR_REVIEW`)
+
+---
+
 **As a** claims adjuster, **I want** to evaluate incoming claims, **so that** we can approve, deny, or escalate them.
 
 Apply the following rules:
@@ -40,7 +52,7 @@ Apply the following rules:
 
 - A valid claim results in a payout equal to `amountClaimed - deductible`
 - The payout cannot exceed the policy’s coverage limit
-- If the remaining balance is less than zero, payout is $0
+- If the result of amountClaimed - deductible (remaining balance) is zero or negative, the payout is $0
 - Store the payout decision with a reason code
 
 ---
