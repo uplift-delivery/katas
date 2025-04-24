@@ -12,7 +12,7 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 
 ### Browsing Countries
 
-**As a** curious human, **I want** to scroll through a list of countries, **so that** I can see what’s out there.
+**As a** curious person, **I want** to scroll through a list of countries, **so that** I can see what’s out there.
 
 - Fetch and display a paginated or infinite-scrolling list of countries.
 - Each country should show at least its name, flag, population, region, and capital.
@@ -41,9 +41,8 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 
 ### Responsive Design
 
-**As a** mobile or desktop user, **I want** the UI to adapt to my device, **so that** it’s always easy to use.
+**As a** person on the go, **I want** the UI to adapt to my device, **so that** it’s always easy to use.
 
-- Support both desktop and mobile views.
 - Use flexible layout techniques (grid, flexbox).
 - Avoid fixed widths or pixel-specific sizing.
 
