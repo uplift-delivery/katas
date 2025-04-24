@@ -10,7 +10,7 @@ You’ve been asked to implement the core logic for an insurance claims processi
 
 ### Submitting a Claim
 
-**As a** human, **I want** to submit a claim with incident details, **so that** it can be reviewed and processed.
+**As a** person with insurance, **I want** to submit a claim with incident details, **so that** it can be reviewed and processed.
 
 Each claim has:
 - `policyId`
@@ -47,7 +47,7 @@ Apply the following rules:
 
 ### Claims History & Limits
 
-**As a** human, **I want** to see how much I've claimed, **so that** I know my coverage usage.
+**As a** person with insurance, **I want** to see how much I've claimed, **so that** I know my coverage usage.
 
 - Total claim amount should not exceed the policy’s coverage limit
 - The system should track total claimed vs. remaining coverage
