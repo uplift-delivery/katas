@@ -2,7 +2,7 @@
 
 ## The Problem
 
-We’ve been asked to create a responsive frontend interface that allows people to explore and learn about countries around the world using a public API. The goal is to build a clean, performant, and accessible UI that supports browsing, filtering, and navigating through real-world data.
+We’ve been asked to create a responsive frontend interface that allows people to explore and learn about countries around the world using a public API. The goal is to build a clean, performant, and accessible UI that supports browsing, and navigating through real-world data.
 
 The project should be built using any modern frontend framework (e.g., React, Vue, Svelte) and must consume data from the [REST Countries API](https://restcountries.com/).
 
