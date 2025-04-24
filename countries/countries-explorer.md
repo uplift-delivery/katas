@@ -33,7 +33,7 @@ The project should be built using any modern frontend framework (e.g., React, Vu
 **As a** user, **I want** to favorite countries I care about, **so that** I can quickly revisit them later.
 
 - Allow users to mark/unmark countries as favorites.
-- If I leave the app and come back it should be persisted
+- Favorites should be persisted regardless of navigation
 - Provide a dedicated view or section that lists all favorite countries.
 - Indicate which countries are favorited in both the list and details views.
 
