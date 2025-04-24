@@ -2,7 +2,7 @@
 
 ## The Problem
 
-You’ve been asked to implement the core logic for an insurance claims processing system. The system should evaluate incoming claims based on a variety of conditions, apply business rules, and calculate payouts accordingly. This challenge will involve complex decision trees and layered conditionals—ideal for exercising clean logic, test coverage, and thoughtful modeling.
+You’ve been asked to implement the core logic for an insurance claims processing system. The system should evaluate incoming claims based on a variety of conditions, apply business rules, and calculate payouts accordingly. The purpose of this kata is to provide a more substantial, non-trivial exercise for practicing test-driven development (TDD). A significant part of the challenge lies in deciding which tests to write—and in what order. Your solution could be implemented as a class with methods, or expanded into a full REST API with multiple endpoints, depending on how far you'd like to take it.
 
 ---
 
@@ -10,7 +10,7 @@ You’ve been asked to implement the core logic for an insurance claims processi
 
 ### Submitting a Claim
 
-**As a** person with insurance, **I want** to submit a claim with incident details, **so that** it can be reviewed and processed.
+**As an** insured person, **I want** to submit a claim with incident details, **so that** I can recieve a payout.
 
 Each claim has:
 - `policyId`
@@ -18,6 +18,60 @@ Each claim has:
 - `incidentDate`
 - `amountClaimed`
 - `description`
+
+---
+
+### Example Policy Data
+
+To help support your solution, here is an example of what policies might look like:
+
+```ts
+type IncidentType = 'accident' | 'theft' | 'fire' | 'water damage';
+
+interface Policy {
+  policyId: string;
+  type: 'basic' | 'premium' | 'comprehensive';
+  startDate: Date;
+  endDate: Date;
+  deductible: number;
+  coverageLimit: number;
+  totalClaimed: number;
+  coveredIncidents: IncidentType[];
+}
+
+const examplePolicies: Policy[] = [
+  {
+    policyId: 'POL123',
+    type: 'basic',
+    startDate: new Date('2023-01-01'),
+    endDate: new Date('2024-01-01'),
+    deductible: 500,
+    coverageLimit: 10000,
+    totalClaimed: 2000,
+    coveredIncidents: ['accident', 'fire'],
+  },
+  {
+    policyId: 'POL456',
+    type: 'comprehensive',
+    startDate: new Date('2022-06-01'),
+    endDate: new Date('2025-06-01'),
+    deductible: 250,
+    coverageLimit: 50000,
+    totalClaimed: 5000,
+    coveredIncidents: ['accident', 'theft', 'fire', 'water damage'],
+  },
+  {
+    policyId: 'POL789',
+    type: 'premium',
+    startDate: new Date('2023-05-15'),
+    endDate: new Date('2026-05-15'),
+    deductible: 100,
+    coverageLimit: 100000,
+    totalClaimed: 10000,
+    coveredIncidents: ['theft', 'fire'],
+  },
+];
+```
 
 ---
 
@@ -59,7 +113,7 @@ Apply the following rules:
 
 ### Claims History & Limits
 
-**As a** person with insurance, **I want** to see how much I've claimed, **so that** I know my coverage usage.
+**As an** insured person, **I want** to see how much I've claimed, **so that** I know my coverage usage.
 
 - Total claim amount should not exceed the policy’s coverage limit
 - The system should track total claimed vs. remaining coverage
