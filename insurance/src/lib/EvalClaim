@@ -1,0 +1,5 @@
+/* First check if claim has a policy, if not return reasonCode = "no policy", approved = false
+then check if it is covered if not return reasonCode "not covered", approved = false
+then check data range if not return reasonCode "policy inactive", approved = false
+then check if payout is within coverage limit if not return reasonCode "over limit", approved = false
+then proceed with calculating payout minus deductable if zero or negitive return reasonCode "zero payout", (need busness logic)approved = false else return reasonCode "approved", approved = true, amount = totalPayout
